@@ -1,5 +1,5 @@
 # react-touter
-react-touter4 源码解析
+react-touter4 源码解析（BrowserRouter）
 
 参考网址: https://reacttraining.com/react-router/web/   and   https://github.com/ReactTraining/react-router
 
