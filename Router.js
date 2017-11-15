@@ -85,7 +85,7 @@ var Router = function(_React$Component) {
     var _props = this.props,
       children = _props.children,
       history = _props.history;
-
+    //确保只有一个孩子  不然报错  
     invariant(children == null || React.Children.count(children) === 1, 'A <Router> may have only one child element');
 
     // Do this here so we can setState when a <Redirect> changes the
@@ -109,7 +109,7 @@ var Router = function(_React$Component) {
   Router.prototype.render = function render() {
     var children = this.props.children;
 
-    return children ? React.Children.only(children) : null;
+    return children ? React.Children.only(children) : null; //确保只有一个孩子  不然报错
   };
 
   return Router;
