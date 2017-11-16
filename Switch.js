@@ -92,4 +92,4 @@ Switch.propTypes = {
   location: PropTypes.object
 };
 
-export default Switch;
+export default Switch; 
