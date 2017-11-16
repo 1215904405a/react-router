@@ -35,7 +35,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 /**
- * The public API for putting history on context.
+ * The public API for putting history on context. 把router放在context上
  */
 
 var Router = function(_React$Component) {
