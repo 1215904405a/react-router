@@ -51,7 +51,7 @@ class Bundle extends Component {
 
   load(props) {
     this.setState({ mod: null });
-    props.load(mod => {
+    props.load(mod => {//给require.ensure 回调
       this.setState({
         // handle both es imports and cjs
         mod: mod.default ? mod.default : mod,
